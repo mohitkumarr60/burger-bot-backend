@@ -94,4 +94,4 @@ def chat_with_bot():
     return jsonify({'response': bot_response})
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=8080, debug=True)
